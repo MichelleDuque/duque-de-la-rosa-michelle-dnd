@@ -100,6 +100,12 @@ footer {
 	cursor: pointer;
 }
 
+#headLine h1 { transition: all 1.5s ease;;}
+
+.orange-headline{
+	color: orange;
+}
+
 #buttonHolder img:hover {
 	opacity:.5;
 }

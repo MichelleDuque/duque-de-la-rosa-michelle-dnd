@@ -41,7 +41,6 @@ body {
 .puzzle-image {
 	width: 40%;
 	display: block;
-	padding: 8px;
 	cursor: pointer;
 }
 
@@ -61,6 +60,17 @@ body {
   float: left;
 	position: relative;
 }
+
+.drop-zone img { 
+	position: absolute; width: 100% !important;
+	float: none;
+}
+
+.tl img { right: 0; bottom: 0; }
+.tr img { left: 0; bottom: 0; }
+
+.bl img { right: 0; top: 0; }
+.br img { left: 0; top: 0; }
 
 
 header {

@@ -7,6 +7,8 @@
 	<link href="css/main.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+	<a href="">NAVIGATE SOMEWHERE</a>
+
 	<header id="headLine">
 		<h1>drag and drop!</h1>
 		<p>solve the puzzle</p>
@@ -21,11 +23,17 @@
 		</div>
 
 		<!-- we want to drop the draggable pieces here -->
-		<div class="puzzle-board"></div>
+		<div class="puzzle-board">
+			<div class="drop-zone tl"></div>
+			<div class="drop-zone tr"></div>
+			<div class="drop-zone bl"></div>
+			<div class="drop-zone br"></div>
+		</div>
 	</section>
 
 	<footer>
 		<p>click thumb to change pieces!</p>
+
 		<nav id="buttonHolder">
 			<img id="0" src="images/buttonZero.jpg" alt="thumbnail">
 			<img id="1" src="images/buttonOne.jpg" alt="thumbnail">
@@ -37,3 +45,4 @@
 	<script src="script/main.js"></script>
 </body>
 </html>
+

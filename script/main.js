@@ -22,7 +22,6 @@ let theButtons = document.querySelectorAll("#buttonHolder img"),
 function removePuzzle(){
 
 
-
 		element1 = document.getElementById("puzzlecomplete1");
 		//check if element has child
 		if (element1.firstChild) {
@@ -31,21 +30,17 @@ function removePuzzle(){
 			console.log("element 1 is working")
 		}
 
-
-
 		element2 = document.getElementById("puzzlecomplete2");
 		if (element2.firstChild) {
 			document.getElementById("puzzlepieces").appendChild(element2.firstChild);
 			console.log("element 2 is working")
 		}	
 
-
 		element3 = document.getElementById("puzzlecomplete3");
 		if (element3.firstChild) {
 			document.getElementById("puzzlepieces").appendChild(element3.firstChild);
 			console.log("element 3 is working")
 		}
-
 
 		element4 = document.getElementById("puzzlecomplete4");
 		if (element4.firstChild) {

@@ -88,8 +88,10 @@ function handleDrop(e) {
 	// this line is going to move the dragged piece from the left side of the board
 	// into whatever drop zone we choose. appendChild means "add element to the container"
 
-
-	this.appendChild(draggedPiece);
+	// check if the div has a child already to add the image
+	if (this.children.length == 0){
+		this.appendChild(draggedPiece);
+	}
 }
 // step 2
 // event handling always goes at the bottom => 
